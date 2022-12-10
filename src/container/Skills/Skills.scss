@@ -1,0 +1,91 @@
+.app__skills{
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.app__skills-container{
+    width: 80%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.app__skills-skill{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 3rem;
+}
+.app__skills-item{
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    transition: all 03s ease-in-out;
+    
+    div{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        //background-color: red;
+
+        img{
+            width: 50%;
+            height: 50%; 
+            background-color: blueviolet;
+        }
+    }
+    p{
+        font-weight: 700;
+        margin-top: 0.5rem;
+    }
+}
+.app__skills-exp{
+    //background-color: red;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.app__skills-exp-item{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+.app__skills-exp-works{
+    flex: 1;
+    //background-color: red;
+    .app__skills-work{
+       // background-color: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+        h4{
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+        p{
+            font-weight: 300;
+            color:var(--gray-color);
+            margin-top: 5px;
+            font-size: 14px;
+        }
+    }
+}
+.app__skills-exp-year{
+    margin-right: 3rem;
+    p{
+        font-weight: 700;
+        color: var(--secondary-color);
+        font-size: 1.25rem;
+    }
+}

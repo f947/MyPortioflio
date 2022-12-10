@@ -1,0 +1,19 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.copy-rights{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: var(--white-color);
+    text-transform: uppercase;
+    p{
+        display: inline;
+    }
+}
+

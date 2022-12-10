@@ -1,0 +1,45 @@
+.container{
+    flex: 1rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    //background-color: green;
+    
+    h2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        //background-color: red;
+       // margin-top: 0.25rem;
+      
+    }
+}
+.app__header-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    //background-color: red;
+    
+   
+    
+}
+
+.app__Profile-item{
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+
+    img{
+        width: 100px;
+        height: 150px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+}
